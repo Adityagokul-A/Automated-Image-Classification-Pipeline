@@ -1,0 +1,10 @@
+---
+classes: ['butterfly','mantis']
+extra_search_descr: "real insect"
+max_images_per_class: 200
+dataset_path: "insects"
+batch_size: 8
+num_workers: 2
+learning_rate: 0.01
+epochs: 20
+model_savepath: 'model_insects.pth'
